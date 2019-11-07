@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  font-family: serif;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 130px 0 80px 0;
+  background-image: url(file:///Users/kimurakenta/Desktop/HTML_CSS/%E4%B8%B8%E5%85%AB%E8%A3%BD%E6%9D%90%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%EF%BC%92/%E3%83%9E%E3%83%AB%E3%83%8F%E3%83%81%E3%83%88%E3%83%83%E3%83%95%E3%82%9A.JPG);
+  background-size: cover;
+  text-align: center;
+  height: auto;
+}
+
+.top-wrapper img {
+  width: 100%;
+}
+
+.top-wrapper h1 {
+  font-size: 90px;
+  font-weight: bold;
+  color: #000000;
+  -webkit-text-stroke: 0.5px #ffffff;
+  text-shadow: 5px 5px 9px #ffffff;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  letter-spacing: 5px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+header {
+  height: 90px;
+  width: 100%;
+  background-color: #fffff8;
+  position : fixed;
+  z-index: 10;
+  margin-top: 0px:
+  padding: 0px;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  height: 90px;
+  width: 180px;
+}
+
+
+
+.header-right {
+
+}
+
+.header-right ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-right ul li {
+  float: left;
+  height: 90px;
+  width: 176px;
+  background-color: #fffff8;
+  text-align: center;
+  line-height: 90px;
+  font-size: 15px;
+}
+
+.header-right ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-weight: 700;
+  transition: all 0.5s;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.header-right ul li a:hover{
+  background-color: rgba(125, 225, 125, 0.8);
+}
+
+.header-right ul li ul li{
+  display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+/* 住まいいきいき */
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon a {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  height: 90px;
+  color: white;
+  font-family: Lucida;
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  float: center;
+  transition: all 0.5s;
+}
+.lesson-icon a:hover {
+  color: black;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #808080;
+  cursor: pointer;
+  box-shadow: 0 7px #333333;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+
+footer p {
+  color: #000000;
+  font-size: 20px;
+}
+
+.container p{
+  text-align: center;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.footer-list {
+  float: right;
