@@ -146,6 +146,14 @@ ul li:hover ul li {
   color: #5f5d60;
 }
 
+.sub {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+  text-align: center;
+  font-size: 30px;
+}
+
 .heading h2 {
   font-weight: normal;
 }
@@ -208,7 +216,17 @@ ul li:hover ul li {
   box-shadow: none;
 }
 
+.ut {
+  background-size: cover;
+  text-align: center;
+  max-width: 100%;
+  min-width: 10%;
+  height: auto;
+}
 
+.ut img {
+  width: 100%;
+}
 
 footer p {
   color: #000000;
