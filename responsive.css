@@ -28,6 +28,9 @@
     width: 100%;
   }
 
+  .sub h1 {
+    font-size: 40px;
+  }
 
   .header-right {
     display: none;
