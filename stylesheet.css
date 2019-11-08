@@ -184,6 +184,7 @@ ul li:hover ul li {
 }
 .lesson-icon a:hover {
   color: black;
+  text-shadow: 2px 2px 1px #ffffff;
 }
 
 .lessons img {
