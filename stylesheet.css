@@ -185,6 +185,11 @@ ul li:hover ul li {
   color: black;
 }
 
+.lessons img {
+  width: 280px;
+  height: auto;
+}
+
 .text-contents {
   width: 80%;
   display: inline-block;
